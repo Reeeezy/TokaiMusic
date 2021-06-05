@@ -49,7 +49,7 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Honey Music** __Telah Online, Tekan Tombol di Bawah Untuk Melihat Panduan!!__""",
+      await message.reply_text("""**Nature - Music** __Telah Online, Tekan Tombol di Bawah Untuk Melihat Panduan!!__""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
