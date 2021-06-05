@@ -47,7 +47,7 @@ async def play(_, message: Message):
                        url='https://t.me/ZeedGoodBoys/9'),
                     InlineKeyboardButton(
                         text="Group",
-                        url='https://t.me/AmazonVirtual')
+                        url='https://t.me/Republicfriend')
                    
                 ]
             ]
