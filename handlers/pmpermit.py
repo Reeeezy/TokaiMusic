@@ -24,5 +24,5 @@ from pyrogram.types import Chat, Message, User
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
 async def pmPermit(client: USER, message: Message):
-  await USER.send_message(message.chat.id,"Halo, Aku Adalah Official Assistance Dari @Nature1_Robot.\n\n ❗️ Rules:\n   - No Chatting Allowed\n   - No Spam Allowed\n\n 👉 **KIRIM LINK ATAU USERNAME GRUP KAMU DISINI JIKA ASISTEN TIDAK JOIN.**\n\n ⚠️ **Perhatian**!: Jika Anda Mengirim Pesan di Sini Berarti Admin Akan Melihat Pesan Anda dan Akan Segera Bergabung Dengan Grup Obrolan Anda.\n   - Jangan Bagikan Info Pribadi Di Sini!!\n   - [Dikelola Oleh :](https://www.instagram.com/ridhoalfahrezi._) @Rezy_IsBack")
+  await USER.send_message(message.chat.id,"Halo, Aku Adalah Official Assistance Dari @Nature1_Robot.\n\n ❗️ Rules:\n   - No Chatting Allowed\n   - No Spam Allowed\n\n 👉 **KIRIM LINK ATAU USERNAME GRUP KAMU DISINI JIKA ASISTEN TIDAK JOIN.**\n\n ⚠️ **Perhatian**!: Jika Anda Mengirim Pesan di Sini Berarti Admin Akan Melihat Pesan Anda dan Akan Segera Bergabung Dengan Grup Obrolan Anda.\n   - Jangan Bagikan Info Pribadi Di Sini!!\n   - [Dikelola Oleh :](https://www.instagram.com/ridhoalfahrezi._) @Rezy_IsBack 🇲🇨")
   return                        
