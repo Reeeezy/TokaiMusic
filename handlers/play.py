@@ -410,7 +410,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "HoneyMusic"
+        user.first_name =  "Nature-Music"
     usar = user
     wew = usar.id
     try:
@@ -440,7 +440,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} Tidak Bisa Masuk Kedalam Grup Karena Masalah Flood! pastikan Jika Asisten Tidak Dibanned Digrup."
-                                  "\n\nAtau Tambahkan @HoneyAssistant Secara Manual Dan Coba Lagi</b>",
+                                  "\n\nAtau Tambahkan @NatureAssistance Secara Manual Dan Coba Lagi</b>",
                               )
                               pass
     try:
@@ -489,13 +489,13 @@ async def play(_, message: Message):
                 [
                                
                     InlineKeyboardButton('Playlist', callback_data='playlist'),
-                    InlineKeyboardButton('Menu', callback_data='menu')
+                    InlineKeyboardButton("Channel", url='https://t.me/Rezy_IsBack')
                 
                 ],                     
                 [
                     InlineKeyboardButton(
-                        text="Channel",
-                        url='https://t.me/ZeedGoodBoys')
+                        text="Instagram",
+                        url='https://www.instagram.con/ridhoalfahrezi._')
                 ]                             
             ]
         )
@@ -513,8 +513,8 @@ async def play(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
         photo="final.png", 
-        caption = f"🏷 **Judul:** {title}\n⏱ **Durasi:** {duration}\n🍋 **Status:** Queued {position}!\n" \
-                + f"🎧 **Request Dari:** {message.from_user.mention}",
+        caption = f"🍀 **Title:** {title}\n⏱ **Duration:** {duration}\n🍃 **Status:** Queued {position}!\n" \
+                + f"🎧 **Requested by:** {message.from_user.mention}",
                    reply_markup=keyboard)
         os.remove("final.png")
         return await lel.delete()
@@ -531,8 +531,8 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption = f"🏷 **Judul:** {title}\n⏱ **Durasi:** {duration}\n🍋 **Status:** Playing\n" \
-                + f"🎧 **Request Dari:** {message.from_user.mention}"
+        caption = f"🍀 **Title:** {title}\n⏱ **Duration:** {duration}\n🍀 **Status:** Playing\n" \
+                + f"🎧 **Requested by:** {message.from_user.mention}"
         ),
         os.remove("final.png")
         return await lel.delete()
@@ -551,7 +551,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "HoneyMusic"
+        user.first_name =  "Nature-Music"
     usar = user
     wew = usar.id
     try:
@@ -581,7 +581,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} Tidak Dapat Memasuki Grup Karena Masalah Flood! Pastikan User Tidak Dibanned Digrup."
-                                  "\n\nAtau Tambahkan @HoneyAssistant Secara Manual Dan Coba Lagi</b>",
+                                  "\n\nAtau Tambahkan @NatureAssistance Secara Manual Dan Coba Lagi</b>",
                               )
                               pass
     try:
@@ -616,12 +616,12 @@ async def deezer(client: Client, message_: Message):
          [   
              [
                  InlineKeyboardButton('Playlist', callback_data='playlist'),
-                 InlineKeyboardButton('Menu', callback_data='menu')     
+                 InlineKeyboardButton("Channel", url='https://t.me/Rezy_IsBack')     
              ],                     
              [
                  InlineKeyboardButton(
-                     text="Channel",
-                     url='https://t.me/ZeedGoodBoys')
+                     text="Instagram",
+                     url='https://www.instagram.cok/ridhoalfahrezi._')
              ]                      
          ]
      )
@@ -674,7 +674,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "HoneyMusic"
+        user.first_name =  "Nature-Music"
     usar = user
     wew = usar.id
     try:
@@ -704,7 +704,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} Tidak Dapat Memasukin Grup Karena Masalah Flood! Pastikan User Tidak Dibanned Digrup."
-                                  "\n\nAtau Tambahkan @HoneyAssistant Secara Manual Dan Coba Lagi</b>",
+                                  "\n\nAtau Tambahkan @NatureAssistance Secara Manual Dan Coba Lagi</b>",
                               )
                               pass
     try:
@@ -743,12 +743,12 @@ async def jiosaavn(client: Client, message_: Message):
          [   
              [
                InlineKeyboardButton('Playlist', callback_data='playlist'),
-               InlineKeyboardButton('Menu', callback_data='menu')   
+               InlineKeyboardButton("Channel", url='https://t.me/Rezy_IsBack')   
              ],                     
              [
                InlineKeyboardButton(
                    text="Instagram",
-                   url='https://www.instagram.com/enjouecollectifxx')
+                   url='https://www.instagram.com/ridhoalfahrezi._')
              ]                          
          ]
      )
