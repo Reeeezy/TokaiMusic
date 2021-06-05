@@ -440,7 +440,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} Tidak Bisa Masuk Kedalam Grup Karena Masalah Flood! pastikan Jika Asisten Tidak Dibanned Digrup."
-                                  "\n\nAtau Tambahkan @NatureAssistance Secara Manual Dan Coba Lagi</b>",
+                                  "\n\nAtau Tambahkan @Nature_Assistance Secara Manual Dan Coba Lagi</b>",
                               )
                               pass
     try:
@@ -581,7 +581,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} Tidak Dapat Memasuki Grup Karena Masalah Flood! Pastikan User Tidak Dibanned Digrup."
-                                  "\n\nAtau Tambahkan @NatureAssistance Secara Manual Dan Coba Lagi</b>",
+                                  "\n\nAtau Tambahkan @Nature_Assistance Secara Manual Dan Coba Lagi</b>",
                               )
                               pass
     try:
@@ -704,7 +704,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} Tidak Dapat Memasukin Grup Karena Masalah Flood! Pastikan User Tidak Dibanned Digrup."
-                                  "\n\nAtau Tambahkan @NatureAssistance Secara Manual Dan Coba Lagi</b>",
+                                  "\n\nAtau Tambahkan @Nature_Assistance Secara Manual Dan Coba Lagi</b>",
                               )
                               pass
     try:
