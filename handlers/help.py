@@ -29,4 +29,4 @@ async def start(_, message: Message):
 × /leavegroup : __Menendang Asisten Music dari VCG.__
 × /adminreset : __Memperbarui Admin List.__
 × /admincache : __Me-Refresh Cache Admin Pada Bot.__
-➥ [Dikelola Oleh :](https://www.instagram.com/ridhoalfahrezi._) @Reeeeeezy.""")
+➥ [Dikelola Oleh :](https://www.instagram.com/ridhoalfahrezi._) @Reeeeeezy. 🇲🇨""")
