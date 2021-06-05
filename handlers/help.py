@@ -7,7 +7,7 @@ from config import BOT_NAME as bn
 async def start(_, message: Message):
       await message.reply_text("""**Nature - Music** __Perintah Untuk Semua Member__ :
 ┈──────────────────────┈
-• /play <Judul>  : __Memutar Lagu Melalui Youtube.___
+• /play <Judul>  : __Memutar Lagu Melalui Youtube.__
 • /dplay <Judul> : __Memutar Lagu Melalui Deezer.__
 • /reply <Link>  : __Memutar Lagu Lewat Reply Link YouTube atau File Audio.__
 • /playlist : __Untuk Menampilkan Daftar Putar Lagu.__
@@ -29,4 +29,4 @@ async def start(_, message: Message):
 × /leavegroup : __Menendang Asisten Music dari VCG.__
 × /adminreset : __Memperbarui Admin List.__
 × /admincache : __Me-Refresh Cache Admin Pada Bot.__
-➥ [Dikelola Oleh](https://www.instagram.com/ridhoalfahrezi._ @Reeeeeezy.""")
+➥ [Dikelola Oleh :](https://www.instagram.com/ridhoalfahrezi._) @Reeeeeezy.""")
