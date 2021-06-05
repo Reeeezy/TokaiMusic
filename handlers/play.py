@@ -513,7 +513,7 @@ async def play(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
         photo="final.png", 
-        caption = f"🍀 **Title:** {title}\n⏱ **Duration:** {duration}\n🍃 **Status:** Queued {position}!\n" \
+        caption = f"🏷 **Judul:** {title}\n⏱ **Durasi:** {duration}\n🍃 **Status:** Queued {position}!\n" \
                 + f"🎧 **Requested by:** {message.from_user.mention}",
                    reply_markup=keyboard)
         os.remove("final.png")
@@ -531,7 +531,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption = f"🍀 **Title:** {title}\n⏱ **Duration:** {duration}\n🍀 **Status:** Playing\n" \
+        caption = f"🏷 **Judul:** {title}\n⏱ **Durasi:** {duration}\n🍃 **Status:** Playing\n" \
                 + f"🎧 **Requested by:** {message.from_user.mention}"
         ),
         os.remove("final.png")
