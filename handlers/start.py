@@ -28,7 +28,7 @@ from config import BOT_NAME as bn
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgIAAxkBAAEKL_1gt842-B5SnR5eHrlBsfTviEt2GwACrAsAAt_YUUnNC_qAE0qWKR8E")
     await message.reply_text(
-        f"""__Hello!! Aku Adalah__ **Nature - Music**!!\n__Aku di Rancang Untuk Mengunduh Maupun Memutar Musik di Obrolan Suara Grup Telegram.\n┈──────────────────────┈\n➠ __Invite__ [Assistance](https://t.me/HoneyAssistant) __Masuk ke Dalam Grup Anda__\n➠ __Untuk Info, Update, dan Panduan Selengkapnya Tekan Tombol Channel di Bawah, Terima kasih! Have Fun!!__\n\n ➥ Dikelola Oleh @Reeeeeezy""",
+        f"""__Hello!! Aku Adalah__ **Nature - Music**!!\n__Aku di Rancang Untuk Mengunduh Maupun Memutar Musik di Obrolan Suara Grup Telegram.\n┈──────────────────────┈\n➠ __Invite__ [Assistance](https://t.me/Nature_Assistance) __Masuk ke Dalam Grup Anda__\n➠ __Untuk Info, Update, dan Panduan Selengkapnya Tekan Tombol Channel di Bawah, Terima kasih! Have Fun!!__\n\n ➥ Dikelola Oleh @Reeeeeezy 🇲🇨""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
