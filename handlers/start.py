@@ -56,7 +56,7 @@ async def gstart(_, message: Message):
                     InlineKeyboardButton(
                         "Instagram 🇲🇨", url="https://www.instagram.com/ridhoalfahrezi._"),
                     InlineKeyboardButton(
-                        "Panduan 📜", url="https://t.me/ZeedGoodBoys/9")
+                        "Panduan 📜", url="https://t.me/ZeedGoodBoys/14")
                 ]
             ]
         )
