@@ -570,7 +570,7 @@ async def deezer(client: Client, message_: Message):
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message_.chat.id,"Aku Official Assistance Dari Tokai Music Bot")
+                              await USER.send_message(message_.chat.id,"Aku Official Assistance Dari Nature - Music Bot")
                               await lel.edit(
                                   "<b>Asisten Bot Berhasil Join Ke Grup</b>",
                               )
@@ -639,7 +639,7 @@ async def deezer(client: Client, message_: Message):
         qeue.append(appendable)
         await res.edit_text(f"🔮 **Your Request Song**\n🍋 **Status**: Antrean Di Posisi {position}!")
     else:
-        await res.edit_text("Tokai Music ▶️ Memutar.....")
+        await res.edit_text("Nature - Music ▶️ Memutar.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -771,7 +771,7 @@ async def jiosaavn(client: Client, message_: Message):
         )           
            
     else:
-        await res.edit_text("Tokai Music ▶️ Memutar.....")
+        await res.edit_text("Nature - Music ▶️ Memutar.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
