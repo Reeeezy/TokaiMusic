@@ -429,7 +429,7 @@ async def play(_, message: Message):
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message.chat.id,"Aku Official Assistance Dari Tokai Music Bot")
+                              await USER.send_message(message.chat.id,"Aku Official Assistance Dari Nature - Music Bot")
                               await lel.edit(
                                   "<b>Asisten Bot Berhasil Join Ke Grup</b>",
                               )
@@ -448,7 +448,7 @@ async def play(_, message: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name} Userbot Tidak Ada Dalam Grup Ini, Minta Admin Untuk /play command Untuk Pertama Kalinya Atau Menambahkan {user.first_name} Secara Manual</i>"
+            f"<i> {user.first_name} Userbot Tidak Ada Dalam Grup Ini, Minta Admin Untuk /play Command Untuk Pertama Kalinya Atau Menambahkan {user.first_name} Secara Manual</i>"
         )
         return     
     sender_id = message.from_user.id
@@ -693,7 +693,7 @@ async def jiosaavn(client: Client, message_: Message):
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message_.chat.id,"Aku Official Assistance Dari Tokai Music Bot")
+                              await USER.send_message(message_.chat.id,"Aku Official Assistance Dari Nature - Music Bot")
                               await lel.edit(
                                   "<b>Asisten Bot Berhasil Join Ke Grup</b>",
                               )
